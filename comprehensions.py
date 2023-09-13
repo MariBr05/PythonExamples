@@ -12,7 +12,7 @@ print(a)
 # Elements of the previous list that are between 500 and 2000.
 
 b = [x for x in a if 500 < x < 2000]
-print(b,a)
+print(b)
 
 # List comprehensions can do a lot of work that we later do with loops.
 # For example, let's find all the Unicode characters that are lowercase
